@@ -1,8 +1,8 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["pyecore"]
+build-backend = "pyecore"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "Interface-KB"
+authors = [{name = "Bert Van Acker", email = "bert.vanacker@uantwerpen.be"}]
 dynamic = ["version", "description"]

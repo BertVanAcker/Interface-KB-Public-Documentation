@@ -1,0 +1,11 @@
+!in project root terminal!
+
+#Generating html:
+
+> cd Documentation
+> make html
+
+#Generating latexpdf:
+
+> cd Documentation
+> make latexpdf

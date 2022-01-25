@@ -1,22 +1,31 @@
-Welcome to Lumache's documentation!
-===================================
+.. Knowledge-Base Interface documentation master file, created by
+   sphinx-quickstart on Mon Dec 27 20:57:51 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Welcome to Knowledge-Base Interface's documentation!
+====================================================
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The Knowledge-Base interface is developed to interface the Knowledge-Base, developed within the Paco-project, via a native python API
 
-.. note::
+.. important:: The Knowledge-Base python API is under development, currently supporting V5, V6, V6.1 and V7 of the KB.
 
-   This project is under active development.
-
-Contents
---------
+Content
+=======
 
 .. toctree::
+   :maxdepth: 2
 
-   usage
-   api
+   Installation<install>
+   How to run<quickstart>
+   Change log<ChangeLog>
+   Examples (KB Core)<Core_examples>
+   Examples (ASG)<ASG_examples>
+   Examples (DFA)<DFA_examples>
+   Examples (Optimization)<Performance_examples>
+   Examples (Contract-Based Co-Design)<ContractOntology_examples>
+   JSON examples (interface objects)<InterfaceObjects_examples>
+   Auto-validation distribution<validation>
+   Internal Documentation<Internal>
+
+

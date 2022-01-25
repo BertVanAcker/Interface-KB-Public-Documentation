@@ -1,0 +1,10 @@
+Version 0.0.1
+    * Initial API functions for using the KB core (version 6)
+    * Initial API functions for all extensions of KB core (version6, version6.1)
+
+Version 0.1.0 (PyPi)
+    * FETCH functionality for all elements (KB version 6 - KB version 6.1 - KB version 7)
+    * UPDATE functionality for all elements, except AssemblySequence (KB version 6 - KB version 6.1 - KB version 7)
+
+Version 0.2.0 (PyPi)
+    * Basic SET functionality for all elements (KB version 6 - KB version 6.1 - KB version 7) -> API calls under discussion
