@@ -47,8 +47,8 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 #html_theme = 'alabaster'
-#html_theme = 'classic' #Preferred
-html_theme = 'renku'    #modern
+html_theme = 'classic' #Preferred
+#html_theme = 'renku'    #modern
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
