@@ -90,6 +90,17 @@ Operation Interface objects documentation::
     print(InterfaceObjects.Operation.object2json.__doc__)
     print(InterfaceObjects.Operation.json2object.__doc__)
 
+Create KB from scratch
+-------------------------------------
+
+Creating an empty Knowledge-Base::
+
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(True)
+
+    # Create New_KB_TEST.pacopackage in output/KB_Instance/
+    API.createEmptyKB(Name="New_KB_TEST", OutputPath="output/KB_Instance/")
+
 Fetch KB data
 -------------------------------------
 
