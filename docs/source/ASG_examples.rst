@@ -117,8 +117,6 @@ Adding the ASG model::
     #updating the ASG model
     error = API.setASG('ASG-1',ASG_interface)
 
-.. important:: DEVELOPER NOTE: Function not working correcly - Stopconditions not added to the XMI model instance
-
 
 Instantiating from JSON file
 ----------------------------------------------------------------
