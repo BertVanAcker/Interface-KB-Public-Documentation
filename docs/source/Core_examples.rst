@@ -257,7 +257,7 @@ Update all contained Product Parts::
 
 Update the Assembly Sequence of a single Assembly System:
 
-.. important:: Not yet implemented
+.. important:: Not supported - use add function
 
 
 Add KB data
@@ -338,11 +338,30 @@ Adding all Product Parts::
     # Adding a new Product Part model
     error = API.setAllProductParts(interfaceObjectList)
 
-.. important:: DEVELOPER NOTE: Model(+parameters) and Material are not set correctly -> not linked
+.. important:: DEVELOPER NOTE: Model(+parameters) and Material are not serialized
 
-Adding a Assembly Sequence to an existing Assembly System:
+Adding a Assembly Sequence to an existing Assembly System::
 
-.. important:: Not yet implemented
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(False)
+
+    # create an empty KB model
+    API.createEmptyKB(Name="test_setAssemblySequence_empty", OutputPath="output/")
+
+    # load the json file to perform update
+    jsonPath = API.resolvePath('input/JSON-docs/AssemblySequence.json')
+    interfaceObject = InterfaceObjects.AssemblySequence(JSONDescriptor=jsonPath, DEBUG=False)
+
+    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
+    path_KB = API.resolvePath('output/test_setAssemblySequence_empty.pacopackage')  # TODO: make version where no Product is defined!
+    API.KB_path = path_KB  # To update current KB
+    API.ECORE_path = path_ecore
+    API.model = API.importInstanceModel(path_ecore, path_KB)
+
+    # updating the ASssembly Sequence and add to Assembly System
+    error = API.setAssemblySequence(AssemblySystemName="TEST_AS",InterfaceObject=interfaceObject)
+
+.. important:: Not yet serializable
 
 Instantiating from JSON file
 ----------------------------------------------------------------

@@ -1,0 +1,32 @@
+{
+    "DFARule": {
+        "Name": "DFA_A",
+        "Description": "A new added DFA rule",
+        "RuleType": "DFA_MaxValue",
+        "isAppliedToProduct": "True",
+        "isAppliedToProductPart": "False",
+        "isAppliedToAssemblySequence": "False",
+        "hasScorePropagation": "0",
+        "hasScoreType": "0",
+        "optionList": [
+            {
+                "Name": "TE",
+                "Value1": "True",
+                "Value2": "None"
+            },
+            {
+                "Name": "Option1",
+                "Value1": "OptionEnumSelect",
+                "Value2": "None"
+            }
+        ],
+        "property": [
+          {
+                "Name": "Weight",
+                "Value1": "100.0",
+                "Value2": "None"
+            }
+
+        ]
+    }
+}

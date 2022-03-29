@@ -1,0 +1,17 @@
+{
+    "DEBUG": true,
+    "Name": "(8) Small Gear",
+    "Description": "Description NEW",
+    "ProductType": "GEAR",
+    "Quantity": 1,
+    "parameterList": [],
+    "partList": [],
+    "material": [
+        "Structural Steel(SS)",
+        0.0,
+        0.0,
+        7850.0,
+        0.0,
+        ""
+    ]
+}

@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <includesParameter hasName="Mass" hasKey="MASS" hasValue="55.0" hasDescription="Total mass parameter"/>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasParameter="//@includesParameter.0" hasMaxValue="100.0" hasInitialValue="10.0" hasDescription="Total mass variable" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS" hasDescription="Minimize the total mass NEW">
+        <hasTerm xsi:type="paco:VariableTerm" hasDecisionVariable="//@includesOptimizationProblem.0/@hasOptimizationTargetDescription/@hasDecisionVariable.0"/>
+      </hasDesignTarget>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1" hasDescription="Constraint1 NEW">
+        <hasExpression>
+          <hasExpressionOperator hasValue="&lt;"/>
+          <hasTerm xsi:type="paco:VariableTerm" hasDecisionVariable="//@includesOptimizationProblem.0/@hasOptimizationTargetDescription/@hasDecisionVariable.0"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasValue="85.0" hasInfixPosition="RIGHT"/>
+        </hasExpression>
+      </hasDesignTarget>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+      <hasStopCriterion hasName="STOP-1" hasDescription="Stop criterion 1 NEW" hasValue="100.0" hasStopCriterion="maxTime"/>
+      <hasStopCriterion hasName="STOP-2" hasDescription="Stop criterion 2 NEW" hasValue="22250.0"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+    <hasOptimizationTargetDescription>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+    </hasOptimizationTargetDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasDescription="Heuristic method NEW" hasName="HEURISTIC-M01"/>
+    </hasOptimizationAnalysisdDescription>
+    <hasOptimizationTargetDescription>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+      <hasDecisionVariable xsi:type="paco:Variable" hasMinValue="10.0" hasName="Mass_var" hasOptimum="55.0" hasMaxValue="100.0" hasInitialValue="10.0" hasResolution="0.1"/>
+    </hasOptimizationTargetDescription>
+  </includesOptimizationProblem>
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1-TEST" hasDescription="Constraint1 NEW"/>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS-TEST" hasDescription="Minimize the total mass NEW"/>
+      <hasDecisionVariable xsi:type="paco:Variable" hasResolution="0.1" hasInitialValue="10.0" hasOptimum="55.0" hasMaxValue="100.0" hasMinValue="10.0" hasName="Mass_var"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasName="HEURISTIC-M01" hasDescription="Heuristic method NEW"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+</paco:PlatformRoot>

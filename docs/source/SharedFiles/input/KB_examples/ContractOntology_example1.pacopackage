@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paco:PlatformRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM">
+  <includesCodesignProblem>
+    <domainconcept hasName="Gearbox">
+      <hasDomainVariables xsi:type="paco:DomainProperty" hasUnit="N/m" hasName="Stiffness"/>
+      <hasDomainVariables xsi:type="paco:DomainProperty" hasUnit="-" hasName="Assembalibility score"/>
+      <hasDomainconcepts hasName="Axle"/>
+      <hasDomainconcepts hasName="House">
+        <hasDomainVariables xsi:type="paco:DomainParameter" hasUnit="mm2" hasName="House footprint"/>
+      </hasDomainconcepts>
+      <hasDomainconcepts hasName="Lid">
+        <hasDomainVariables xsi:type="paco:DomainParameter" hasUnit="kg" hasName="Lid weight"/>
+      </hasDomainconcepts>
+      <hasDomainconcepts hasName="Gear"/>
+      <hasDomainconcepts hasName="Screw">
+        <hasDomainVariables xsi:type="paco:DomainParameter" hasUnit="-" hasName="NumberOfParts"/>
+      </hasDomainconcepts>
+    </domainconcept>
+    <domainconcept hasDomain="Assembly" hasName="AssemblyLine x">
+      <hasDomainconcepts hasDomain="Assembly" hasName="Operator">
+        <hasDomainconcepts hasDomain="Assembly" hasName="Lift"/>
+      </hasDomainconcepts>
+      <hasDomainconcepts hasDomain="Assembly" hasName="Wrench">
+        <hasDomainconcepts hasDomain="Assembly" hasName="Screw"/>
+      </hasDomainconcepts>
+      <hasDomainconcepts hasDomain="Assembly" hasName="BearingPress">
+        <hasDomainconcepts hasDomain="Assembly" hasName="Press"/>
+      </hasDomainconcepts>
+    </domainconcept>
+    <hasOntology>
+      <hasRelation xsi:type="paco:L1_FuzzyCognitiveRelation" hasName="FootprintStiffness">
+        <hasDestination hasDomainvariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainVariables.0"/>
+        <hasSource hasDomainvariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainconcepts.1/@hasDomainVariables.0"/>
+      </hasRelation>
+      <hasRelation xsi:type="paco:L1_FuzzyCognitiveRelation" hasName="WeightAssembelebility" SensitivityDirection="Negative">
+        <hasDestination hasDomainvariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainVariables.1"/>
+        <hasSource hasDomainvariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainconcepts.2/@hasDomainVariables.0"/>
+      </hasRelation>
+    </hasOntology>
+    <hasContracts hasName="C-1" hasDescription="Co-desgin contract C-1">
+      <hasAssumption>
+        <expression hasValue="Lid-WeightLimit">
+          <hasTerm xsi:type="paco:VariableTerm" hasDomainVariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainconcepts.2/@hasDomainVariables.0"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasInfixPosition="RIGHT" hasValue="10.0"/>
+          <hasExpressionOperator hasValue="&lt;"/>
+        </expression>
+      </hasAssumption>
+      <hasAssumption>
+        <expression hasValue="Screw-NumberOfPartsMax">
+          <hasTerm xsi:type="paco:VariableTerm" hasDomainVariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainconcepts.4/@hasDomainVariables.0"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasInfixPosition="RIGHT" hasValue="10.0"/>
+          <hasExpressionOperator hasValue="&lt;"/>
+        </expression>
+      </hasAssumption>
+      <hasAssumption>
+        <expression hasValue="Screw-NumberOfPartsMin">
+          <hasTerm xsi:type="paco:VariableTerm" hasDomainVariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainconcepts.4/@hasDomainVariables.0"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasInfixPosition="RIGHT" hasValue="2.0"/>
+          <hasExpressionOperator hasValue=">="/>
+        </expression>
+      </hasAssumption>
+      <hasGuarantee>
+        <hasExpression hasValue="AssembelibilityScore">
+          <hasTerm xsi:type="paco:VariableTerm" hasDomainVariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainVariables.1"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasInfixPosition="RIGHT" hasValue="0.85"/>
+          <hasExpressionOperator hasValue=">="/>
+        </hasExpression>
+      </hasGuarantee>
+      <hasGuarantee>
+        <hasExpression hasValue="Stiffness">
+          <hasTerm xsi:type="paco:VariableTerm" hasDomainVariable="//@includesCodesignProblem/@domainconcept.0/@hasDomainVariables.0"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasInfixPosition="RIGHT" hasValue="15000.0"/>
+          <hasExpressionOperator hasValue=">="/>
+        </hasExpression>
+      </hasGuarantee>
+    </hasContracts>
+  </includesCodesignProblem>
+</paco:PlatformRoot>

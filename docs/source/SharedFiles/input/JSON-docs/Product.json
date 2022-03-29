@@ -1,0 +1,26 @@
+{
+    "DEBUG": true,
+    "Name": "OldGearBox",
+    "Description": "",
+    "STEPFile": "c:/NEW/PATH/TO/THE/STEPFILE",
+    "parameterList": [
+        {
+            "DEBUG": true,
+            "Name": "Parameter1",
+            "Description": "First parameter",
+            "Key": "",
+            "GUID": "PAR1",
+            "Value": 10.0,
+            "StopCriteria": "maxDepth=0"
+        },
+        {
+            "DEBUG": true,
+            "Name": "Parameter2",
+            "Description": "Second parameter",
+            "Key": "",
+            "GUID": "PAR2",
+            "Value": 81.0,
+            "StopCriteria": "maxDepth=0"
+        }
+    ]
+}

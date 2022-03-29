@@ -1,0 +1,36 @@
+{
+    "DEBUG": true,
+    "Name": "ASG-1-config",
+    "Description": "AssemblySequenceDraft1 NEW",
+    "ProcessingType": "Full",
+    "Generator": [
+        "Gen-1 NEW",
+        "SinglePartGenerator"
+    ],
+    "Selector": [
+        "Sel-1 NEW",
+        "RuleSelector"
+    ],
+    "SelectorDFARuleList": [],
+    "Evaluator": [
+        "Eval-1 NEW",
+        "RuleEvaluator"
+    ],
+    "EvaluatorDFARuleList": [],
+    "StopConditionList": [
+        {
+            "DEBUG": true,
+            "Name": "Stop-1",
+            "Description": "Maximum depth of search NEW",
+            "Value": 100.0,
+            "StopCriteria": "maxDepth"
+        },
+        {
+            "DEBUG": true,
+            "Name": "Stop-2",
+            "Description": "Maximum time of search NEW",
+            "Value": 3600.0,
+            "StopCriteria": "maxTime"
+        }
+    ]
+}
