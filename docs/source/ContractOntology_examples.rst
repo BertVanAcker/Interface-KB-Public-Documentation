@@ -81,7 +81,7 @@ Fetching the contract model::
     path_KB = API.resolvePath('input/KB_examples/ContractOntology_example1.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the contract model
     InterfaceObject_received = API.getContract('C-1')
@@ -97,7 +97,7 @@ Fetching the ontology model::
     path_KB = API.resolvePath('input/KB_examples/ContractOntology_example1.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the ontology model
     InterfaceObject_received = API.getOntology()

@@ -18,3 +18,11 @@ Version 0.4.0 (PyPi)
 	* Low-level hacks to enable serialization
 	* Correction of ASG functions (no hacks)
 	* AssemblySequence functions added (not serializable)
+
+Version 0.5.0 (PyPi)
+    * Faulty build	
+
+Version 0.6.0 (PyPi)
+    * Basic SET functionality for all elements (KB version 6 - KB version 6.1 - KB version 7) -> API calls under discussion
+	* Serialization problem solved
+	* Updated legacy functions

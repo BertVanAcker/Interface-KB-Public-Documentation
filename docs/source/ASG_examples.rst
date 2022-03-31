@@ -58,7 +58,7 @@ Fetching the ASG model::
     path_KB = API.resolvePath('input/KB_examples/test_getASG.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the ASG model
     InterfaceObject_received = API.getASG('ASG-1')
@@ -82,7 +82,7 @@ Updating the ASG model::
     path_KB = API.resolvePath('input/KB_examples/test_getASG.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     #updating the ASG model
     error = API.updateASG(AssemblySystemName='ASG-1',interfaceObject=interfaceObject)
@@ -112,7 +112,7 @@ Adding the ASG model::
     API.KB_path = path_KB  # To update current KB
     API.ECORE_path = path_ecore
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     #updating the ASG model
     error = API.setASG('ASG-1',ASG_interface)
@@ -144,7 +144,7 @@ Generating the ASG JSON model::
     path_KB = API.resolvePath('input/KB_examples/test_updateASG.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the ASG model
     InterfaceObject_received = API.getASG('ASG-1')

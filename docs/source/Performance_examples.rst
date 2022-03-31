@@ -83,7 +83,7 @@ Fetching the Performance model::
     path_KB = API.resolvePath('input/KB_examples/test_getPerformance.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the Performance model
     InterfaceObject_received = API.getPerformance('OPTIMIZATION-v1')
@@ -107,7 +107,7 @@ Updating the Performance model::
     path_KB = API.resolvePath('input/KB_examples/test_updateASG.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     #perform update
     error = API.updatePerformance(interfaceObject)
@@ -131,7 +131,7 @@ Adding the Performance model::
     API.KB_path = path_KB  # To update current KB
     API.ECORE_path = path_ecore
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     #perform adding the performance model
     error = API.setPerformance(interfaceObject)

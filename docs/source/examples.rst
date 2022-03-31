@@ -123,7 +123,7 @@ Fetching the ASG model::
     path_KB = API.resolvePath('input/KB_examples/test_getASG.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the ASG model
     InterfaceObject_received = API.getASG('ASG-1')
@@ -139,7 +139,7 @@ Fetching the DFA rules::
     path_KB = API.resolvePath('input/KB_examples/test_getDFARules.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the DFA rules
     DFARules_Selector = API.getASG_DFARules('ASG-1', "Selector")
@@ -156,7 +156,7 @@ Fetching the Performance model::
     path_KB = API.resolvePath('input/KB_examples/test_getPerformance.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the Performance model
     InterfaceObject_received = API.getPerformance('OPTIMIZATION-v1')
@@ -187,7 +187,7 @@ Updating the DFA rules::
     path_KB = API.resolvePath('input/KB_examples/test_getDFARules.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     #perform update
     error_S=API.updateASG_DFARules('ASG-1', "Selector",DFARule_Selector)
@@ -209,7 +209,7 @@ Updating the Performance model::
     path_KB = API.resolvePath('input/KB_examples/test_getPerformance.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     #perform update
     error = API.updatePerformance(interfaceObject)

@@ -115,7 +115,7 @@ Fetching the Product::
     path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the Product
     InterfaceObject_received = API.getProduct()
@@ -134,7 +134,7 @@ Fetching the Product Part::
     path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the Product Part
     InterfaceObject_received = API.getProductPart('(3) Input Shaft')
@@ -153,7 +153,7 @@ Fetching all contained Product Parts::
     path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching all Product Parts
     InterfaceObjectList = API.getAllProductParts()
@@ -171,7 +171,7 @@ Fetching the Assembly Sequence of a single Assembly System::
     path_KB = API.resolvePath('input/KB_examples/test_getAssemblySequence.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the assembly sequence of Assembly System AS-1
     InterfaceObject_received = API.getAssemblySequence("AS-1")
@@ -194,7 +194,7 @@ Update the Product::
     path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # updating the Product model
     error = API.updateProduct(interfaceObject=interfaceObject)
@@ -217,7 +217,7 @@ Update the Product Part::
     path_KB = API.resolvePath('input/KB_examples/test_updateProductPart.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # updating the Product Part model
     error = API.updateProductPart(interfaceObject)
@@ -248,7 +248,7 @@ Update all contained Product Parts::
     path_KB = API.resolvePath('input/KB_examples/test_updateProductPart.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # perform update
     error = API.updateAllProductParts(interfaceObjectList)
@@ -278,7 +278,7 @@ Adding the Product::
     API.KB_path = path_KB  # To update current KB
     API.ECORE_path = path_ecore  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # Adding a new Product Part model
     error = API.setProduct(interfaceObject=interfaceObject)
@@ -301,7 +301,7 @@ Adding the Product Part::
     API.KB_path = path_KB  # To update current KB
     API.ECORE_path = path_ecore  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # Adding a new Product Part model
     error = API.setProductPart(interfaceObject)
@@ -333,7 +333,7 @@ Adding all Product Parts::
     API.KB_path = path_KB  # To update current KB
     API.ECORE_path = path_ecore  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # Adding a new Product Part model
     error = API.setAllProductParts(interfaceObjectList)
@@ -356,7 +356,7 @@ Adding a Assembly Sequence to an existing Assembly System::
     path_KB = API.resolvePath('output/test_setAssemblySequence_empty.pacopackage')  # TODO: make version where no Product is defined!
     API.KB_path = path_KB  # To update current KB
     API.ECORE_path = path_ecore
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # updating the ASssembly Sequence and add to Assembly System
     error = API.setAssemblySequence(AssemblySystemName="TEST_AS",InterfaceObject=interfaceObject)
@@ -418,7 +418,7 @@ Generating the Product Part JSON model::
     path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the Product Part
     productPart = API.getProductPart('(3) Input Shaft')
@@ -440,7 +440,7 @@ Generating the Assembly Sequence JSON model::
     path_KB = API.resolvePath('input/KB_examples/test_getAssemblySequence.pacopackage')
     API.KB_path = path_KB  # To update current KB
     #importing the KB instance model
-    API.model = API.importInstanceModel(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
 
     # fetching the assembly sequence of Assembly System AS-1
     AssemblySequence = API.getAssemblySequence("AS-1")
