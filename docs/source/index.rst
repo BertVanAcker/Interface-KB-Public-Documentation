@@ -8,7 +8,7 @@ Welcome to Knowledge-Base Interface's documentation!
 
 The Knowledge-Base interface is developed to interface the Knowledge-Base, developed within the Paco-project, via a native python API
 
-.. important:: The Knowledge-Base python API is under development, currently supporting V5, V6, V6.1 and V7 of the KB.
+.. important:: The Knowledge-Base python API currently supports the baseline KB (KB version 8)
 
 Content
 =======
