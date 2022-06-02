@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <includesAssemblySystem hasName="ASG-1">
+    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1 NEW" hasProcessingType="Full" hasName="ASG-1-config">
+      <hasTerminator hasName="Ter-1">
+        <hasStopCriterion hasValue="100.0" hasName="Stop-1" hasDescription="Maximum depth of search NEW" hasStopCriterion="maxDepth"/>
+        <hasStopCriterion hasValue="3600.0" hasName="Stop-2" hasDescription="Maximum time of search NEW" hasStopCriterion="maxTime"/>
+      </hasTerminator>
+      <hasRuleEvaluator hasName="Eval-1">
+        <hasDFARule xsi:type="paco:DFA_BoundValue" hasMaxValue="100.0" hasDescription="rule-parts-bound" hasProperty="NumberParts" hasMinValue="1.0" hasName="rule-parts-bound"/>
+        <hasDFARule xsi:type="paco:DFA_Translation" hasDescription="f" hasName="f" hasTranslationType="Global"/>
+        <hasDFARule xsi:type="paco:DFA_Gravity" hasDescription="gravity" hasName="gravity"/>
+      </hasRuleEvaluator>
+      <hasRuleSelector hasName="Sel-1">
+        <hasDFARule xsi:type="paco:DFA_MaxValue" hasDescription="rule-height-max" hasProperty="Height" hasValue="100.0" hasName="rule-height-max">
+          <hasOption xsi:type="paco:BooleanOption" hasName="TE" hasValue="true"/>
+          <hasOption xsi:type="paco:TextualOption" hasName="Option1" hasValue="OptionEnumSelect"/>
+        </hasDFARule>
+        <hasDFARule xsi:type="paco:DFA_MinValue" hasValue="150.0" hasDescription="foot" hasProperty="Footprint" hasName="rule-min-footprint"/>
+      </hasRuleSelector>
+      <hasSinglePartGenerator hasName="Gen-1"/>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+</paco:PlatformRoot>

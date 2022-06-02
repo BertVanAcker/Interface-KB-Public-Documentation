@@ -1,0 +1,119 @@
+{
+    "DEBUG": true,
+    "Name": "SUB-1",
+    "Description": "NOT IN MM",
+    "AssemblyMetric": [
+        "OP-1",
+        "0.89"
+    ],
+    "AssemblyOptions": {
+        "DEBUG": true,
+        "Name": "SUB-1",
+        "Description": "",
+        "Operations": [
+            {
+                "DEBUG": true,
+                "Name": "SCREW-2-3",
+                "Description": "NOT IN MM",
+                "Fastners": [
+                    "Part-1"
+                ],
+                "OperationMetric": [
+                    "OP-2",
+                    "0.57"
+                ],
+                "Operators": [
+                    {
+                        "DEBUG": true,
+                        "Name": "Joachim",
+                        "CostPerHour": 65.0,
+                        "Height": 180.0,
+                        "MaxLiftingWeight": 55.0,
+                        "Reach": 120.0
+                    }
+                ],
+                "Tool": [
+                    {
+                        "DEBUG": true,
+                        "Name": "Screwdriver-1",
+                        "Mass": 150.0,
+                        "Cost": 0.0,
+                        "Orientation": "0.0.0.0",
+                        "Geometry": "c:/../../../",
+                        "RequiredOperators": [
+                            "Joachim"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "RecursiveAssemblyOption": [
+            {
+                "DEBUG": true,
+                "Name": "SUB-2",
+                "Description": "",
+                "Operations": [],
+                "RecursiveAssemblyOption": []
+            },
+            {
+                "DEBUG": true,
+                "Name": "SUB-3",
+                "Description": "",
+                "Operations": [
+                    {
+                        "DEBUG": true,
+                        "Name": "SCREW-4-5",
+                        "Description": "NOT IN MM",
+                        "Fastners": [
+                            "Part-1",
+                            "Part-2"
+                        ],
+                        "OperationMetric": [
+                            "OP-2",
+                            "0.57"
+                        ],
+                        "Operators": [
+                            {
+                                "DEBUG": true,
+                                "Name": "Moharram",
+                                "CostPerHour": 65.0,
+                                "Height": 175.0,
+                                "MaxLiftingWeight": 110.0,
+                                "Reach": 60.0
+                            }
+                        ],
+                        "Tool": [
+                            {
+                                "DEBUG": true,
+                                "Name": "Screwdriver-1",
+                                "Mass": 150.0,
+                                "Cost": 0.0,
+                                "Orientation": "0.0.0.0",
+                                "Geometry": "c:/../../../",
+                                "RequiredOperators": [
+                                    "Moharram"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "RecursiveAssemblyOption": [
+                    {
+                        "DEBUG": true,
+                        "Name": "SUB-4",
+                        "Description": "",
+                        "Operations": [],
+                        "RecursiveAssemblyOption": []
+                    },
+                    {
+                        "DEBUG": true,
+                        "Name": "SUB-5",
+                        "Description": "",
+                        "Operations": [],
+                        "RecursiveAssemblyOption": []
+                    }
+                ]
+            }
+        ]
+    }
+}

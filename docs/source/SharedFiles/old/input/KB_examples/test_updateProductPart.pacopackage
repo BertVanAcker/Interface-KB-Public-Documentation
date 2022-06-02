@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmi:version="2.0">
+  <includesParameter hasValue="[1mm]" hasName="Name NEW" hasKey="Input" hasUnit="mm"/>
+  <includesParameter hasValue="[10Nm^-1]" hasName="Name NEW" hasKey="Output" hasUnit="Nm^-1"/>
+  <includesParameter hasValue="[1mm]" hasKey="Input" hasName="Name NEW"/>
+  <includesParameter hasValue="[10Nm^-1]" hasKey="Output" hasName="Name NEW"/>
+  <includesMaterial hasDensity="7850.0" hasName="Structural Steel(SS)" hasStiffness="//@includesStiffness.0"/>
+  <includesMaterial hasDensity="7850.0" hasStiffness="//@includesStiffness.1" hasName="Structural Steel(SS)"/>
+  <includesModel hasModelType="" hasModelParameter="//@includesParameter.0 //@includesParameter.1"/>
+  <includesModel hasModelType="" hasModelParameter="//@includesParameter.2 //@includesParameter.3"/>
+  <includesProduct hasSTEPfile="c:/NEW/PATH/TO/THE/STEPFILE" hasProductPart="//@includesProductPart.0 //@includesProductPart.1" hasProductName="OldGearBox"/>
+  <includesOperator/>
+  <includesStiffness hasScalarMatrix6x6=""/>
+  <includesStiffness hasScalarMatrix6x6=""/>
+  <includesProductPart hasMaterial="//@includesMaterial.0" hasPartType="Unknown" hasPartName="(TEST) PART A" hasModel="//@includesModel.0"/>
+  <includesProductPart hasPartName="(TEST) PART B" hasMaterial="//@includesMaterial.1" hasModel="//@includesModel.1" hasPartType="Unknown"/>
+</paco:PlatformRoot>

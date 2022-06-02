@@ -1,0 +1,21 @@
+{
+    "DFARule": {
+        "Name": "rule-parts-bound",
+        "Description": "Hello World 2",
+        "RuleType": "DFA_BoundValue",
+        "isAppliedToProduct": "False",
+        "isAppliedToProductPart": "False",
+        "isAppliedToAssemblySequence": "False",
+        "hasScorePropagation": "0",
+        "hasScoreType": "0",
+        "optionList": [],
+        "property": [
+          {
+                "Name": "4",
+                "Value1": "1.0",
+                "Value2": "100.0"
+            }
+
+        ]
+    }
+}

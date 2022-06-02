@@ -1,0 +1,84 @@
+{
+    "DEBUG": true,
+    "Name": "OPTIMIZATION-v1",
+    "Description": "Optimization problem v1",
+    "OptimizationMethod": [
+        "HEURISTIC-M01",
+        "Heuristic method",
+        "Heuristic"
+    ],
+    "StopConditionList": [
+        {
+            "DEBUG": true,
+            "Name": "STOP-1",
+            "Description": "Stop criterion 1",
+            "Value": 3600.0,
+            "StopCriteria": "maxTime"
+        },
+        {
+            "DEBUG": true,
+            "Name": "STOP-2",
+            "Description": "Stop criterion 2",
+            "Value": 15001.0,
+            "StopCriteria": "maxDepth"
+        }
+    ],
+    "MethodPerformance": [],
+    "RAWResults": [],
+    "interpretedResults": [],
+    "parameterList": [
+        {
+            "DEBUG": true,
+            "Name": "Mass_var",
+            "Description": "Total mass variable",
+            "InitialValue": 10.0,
+            "MinValue": 10.0,
+            "MaxValue": 100.0,
+            "Optimum": 81.0,
+            "Resolution": 0.1,
+            "parameterList": [
+                {
+                    "DEBUG": true,
+                    "Name": "Mass",
+                    "Description": "Total mass parameter",
+                    "Key": "MASS",
+                    "GUID": null,
+                    "Value": null,
+                    "StopCriteria": "maxDepth=0"
+                }
+            ]
+        }
+    ],
+    "ObjectiveList": [
+        {
+            "DEBUG": true,
+            "Name": "MIN-MASS",
+            "Description": "Minimize the total mass",
+            "ObjectiveOption": [
+                "Mass_var",
+                "Total mass variable",
+                81.0
+            ]
+        }
+    ],
+    "ConstraintList": [
+        {
+            "DEBUG": true,
+            "Name": "CONSTRAINT1",
+            "Description": "Constraint1",
+            "Expression": [
+                [
+                    "LEFT",
+                    "Mass_var",
+                    "Total mass variable",
+                    81.0
+                ],
+                [
+                    "RIGHT",
+                    85.0
+                ],
+                "<"
+            ]
+        }
+    ]
+}

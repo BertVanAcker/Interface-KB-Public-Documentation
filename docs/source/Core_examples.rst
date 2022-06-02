@@ -8,7 +8,7 @@ Function documentation
 Product Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all Product functions--
     print(API.getProduct.__doc__)
@@ -18,7 +18,7 @@ Product Function documentation::
 Product Part Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all Product Part functions--
     print(API.getProductPart.__doc__)
@@ -32,7 +32,7 @@ Product Part Function documentation::
 Assembly sequence documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all Assembly sequence functions--
     print(API.getAssemblySequence.__doc__)
@@ -45,7 +45,7 @@ Interface object documentation
 Product Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the DFA interface object and contained functions--
     print(InterfaceObjects.Product.__doc__)
@@ -55,7 +55,7 @@ Product Interface objects documentation::
 Parameter Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Parameter interface object and contained functions--
     print(InterfaceObjects.Parameter.__doc__)
@@ -63,7 +63,7 @@ Parameter Interface objects documentation::
 Product Part Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the DFA interface object and contained functions--
     print(InterfaceObjects.ProductPart.__doc__)
@@ -73,7 +73,7 @@ Product Part Interface objects documentation::
 Assembly Sequence Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the AssemblySequence interface object and contained functions--
     print(InterfaceObjects.AssemblySequence.__doc__)
@@ -83,7 +83,7 @@ Assembly Sequence Interface objects documentation::
 Operation Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Operation interface object and contained functions--
     print(InterfaceObjects.Operation.__doc__)
@@ -96,7 +96,7 @@ Create KB from scratch
 Creating an empty Knowledge-Base::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Create New_KB_TEST.pacopackage in output/KB_Instance/
     API.createEmptyKB(Name="New_KB_TEST", OutputPath="output/KB_Instance/")
@@ -107,15 +107,13 @@ Fetch KB data
 Fetching the Product::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
-    path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
-    API.KB_path = path_KB  # To update current KB
+    path_KB = API.resolvePath('input/KB_examples/test_getProduct.pacopackage')
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the Product
     InterfaceObject_received = API.getProduct()
@@ -126,15 +124,13 @@ Fetching the Product::
 Fetching the Product Part::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
-    path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
-    API.KB_path = path_KB  # To update current KB
+    path_KB = API.resolvePath('input/KB_examples/test_getProductPart.pacopackage')
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the Product Part
     InterfaceObject_received = API.getProductPart('(3) Input Shaft')
@@ -145,15 +141,13 @@ Fetching the Product Part::
 Fetching all contained Product Parts::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
-    path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
-    API.KB_path = path_KB  # To update current KB
+    path_KB = API.resolvePath('input/KB_examples/test_getProductParts.pacopackage')
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching all Product Parts
     InterfaceObjectList = API.getAllProductParts()
@@ -163,15 +157,13 @@ Fetching all contained Product Parts::
 Fetching the Assembly Sequence of a single Assembly System::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getAssemblySequence.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the assembly sequence of Assembly System AS-1
     InterfaceObject_received = API.getAssemblySequence("AS-1")
@@ -183,18 +175,16 @@ Update KB data
 Update the Product::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # --Product interface object
     interfaceObject = InterfaceObjects.Product(Name='OldGearBox',STEPFile='c:/NEW/PATH/TO/THE/STEPFILE')
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
-    path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
-    API.KB_path = path_KB  # To update current KB
+    path_KB = API.resolvePath('input/KB_examples/test_updateProduct.pacopackage')
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # updating the Product model
     error = API.updateProduct(interfaceObject=interfaceObject)
@@ -205,19 +195,17 @@ Update the Product::
 Update the Product Part::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # load the json file to perform update
     jsonPath = API.resolvePath('input/JSON-docs/updateProductPart.json')
     interfaceObject = InterfaceObjects.ProductPart(jsonPath)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
-    path_KB = API.resolvePath('input/KB_examples/test_updateProductPart.xmi')
-    API.KB_path = path_KB  # To update current KB
+    path_KB = API.resolvePath('input/KB_examples/test_updateProductPart.pacopackage')
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # updating the Product Part model
     error = API.updateProductPart(interfaceObject)
@@ -228,7 +216,7 @@ Update the Product Part::
 Update all contained Product Parts::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     interfaceObjectList = []
 
@@ -242,18 +230,16 @@ Update all contained Product Parts::
     interfaceObject2 = InterfaceObjects.ProductPart(jsonPath)
     interfaceObjectList.append(interfaceObject2)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
-    path_KB = API.resolvePath('input/KB_examples/test_updateProductPart.xmi')
-    API.KB_path = path_KB  # To update current KB
+    path_KB = API.resolvePath('input/KB_examples/test_updateAllProductParts.pacopackage')
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # perform update
     error = API.updateAllProductParts(interfaceObjectList)
 
-.. important:: Currently, no contact features are updated within the KB!
+
 
 Update the Assembly Sequence of a single Assembly System:
 
@@ -266,53 +252,43 @@ Add KB data
 Adding the Product::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # load the json file to perform setter function
     interfaceObject = InterfaceObjects.Product(Name='OldGearBox', STEPFile='c:/NEW/PATH/TO/THE/STEPFILE')
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_setProduct.pacopackage')
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # Adding a new Product Part model
     error = API.setProduct(interfaceObject=interfaceObject)
 
-.. important:: DEVELOPER NOTE: functions does not work yet -> discuss the dependencies that need to be set while adding a Product
 
 Adding the Product Part::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # load the json file to perform update
     jsonPath = API.resolvePath('input/JSON-docs/addProductPart.json')
     interfaceObject = InterfaceObjects.ProductPart(jsonPath)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_addProductPart.xmi')
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # Adding a new Product Part model
     error = API.setProductPart(interfaceObject)
 
-.. important:: DEVELOPER NOTE: Model(+parameters) and Material are not set correctly -> not linked
-
-
 Adding all Product Parts::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     interfaceObjectList = []
 
@@ -326,19 +302,16 @@ Adding all Product Parts::
     interfaceObject2 = InterfaceObjects.ProductPart(jsonPath)
     interfaceObjectList.append(interfaceObject2)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_addProductPart.xmi')
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # Adding a new Product Part model
     error = API.setAllProductParts(interfaceObjectList)
 
-.. important:: DEVELOPER NOTE: Model(+parameters) and Material are not serialized
+
 
 Adding a Assembly Sequence to an existing Assembly System::
 
@@ -352,16 +325,13 @@ Adding a Assembly Sequence to an existing Assembly System::
     jsonPath = API.resolvePath('input/JSON-docs/AssemblySequence.json')
     interfaceObject = InterfaceObjects.AssemblySequence(JSONDescriptor=jsonPath, DEBUG=False)
 
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     path_KB = API.resolvePath('output/test_setAssemblySequence_empty.pacopackage')  # TODO: make version where no Product is defined!
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # updating the ASssembly Sequence and add to Assembly System
     error = API.setAssemblySequence(AssemblySystemName="TEST_AS",InterfaceObject=interfaceObject)
 
-.. important:: Not yet serializable
 
 Instantiating from JSON file
 ----------------------------------------------------------------
@@ -369,7 +339,7 @@ Instantiating from JSON file
 Instantiate the Product model ::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/Product.json')
@@ -379,7 +349,7 @@ Instantiate the Product model ::
 Instantiate the Product Part model ::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/ProductPart.json')
@@ -387,9 +357,16 @@ Instantiate the Product Part model ::
     productPart = InterfaceObjects.ProductPart(JSONDescriptor=jsonDescriptor)
 
 
-Instantiate the Assembly Sequence model :
+Instantiate the Assembly Sequence model ::
 
-.. important:: Not yet implemented -> recursiveness depth?
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
+
+    # Specify the absolute path to the JSON file
+    jsonPath = self.KB_Interface.resolvePath('input/JSON-docs/AssemblySequence.json')
+    # instantiate the DFARule via the JSON file
+    AssemblySequence = InterfaceObjects.AssemblySequence(JSONDescriptor=jsonPath, DEBUG=False)
+
 
 Generating JSON object
 -----------------------------------------------------------------
@@ -397,7 +374,7 @@ Generating JSON object
 Generating the Product JSON model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # --Product interface object
     product = InterfaceObjects.Product(Name='OldGearBox',STEPFile='c:/NEW/PATH/TO/THE/STEPFILE')
@@ -410,15 +387,13 @@ Generating the Product JSON model::
 Generating the Product Part JSON model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version5/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/OldGearBox.xmi')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the Product Part
     productPart = API.getProductPart('(3) Input Shaft')
@@ -432,15 +407,13 @@ Generating the Product Part JSON model::
 Generating the Assembly Sequence JSON model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getAssemblySequence.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the assembly sequence of Assembly System AS-1
     AssemblySequence = API.getAssemblySequence("AS-1")

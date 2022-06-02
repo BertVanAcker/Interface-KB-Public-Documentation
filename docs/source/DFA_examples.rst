@@ -7,7 +7,7 @@ Function documentation
 DFA Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all DFA functions--
     print(API.getASG_DFARules.__doc__)
@@ -21,7 +21,7 @@ Interface object documentation
 DFA Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the DFA interface object and contained functions--
     print(InterfaceObjects.DFARule.__doc__)
@@ -31,7 +31,7 @@ DFA Interface objects documentation::
 Parameter Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Parameter interface object and contained functions--
     print(InterfaceObjects.Parameter.__doc__)
@@ -42,15 +42,13 @@ Fetch KB data
 Fetching the DFA rules::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getDFARules.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the DFA rules
     DFARules_Selector = API.getASG_DFARules('ASG-1', "Selector")
@@ -64,7 +62,7 @@ Update KB data
 Updating the DFA rules::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # --JSON import of DFA rules
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule_Selector.json')
@@ -72,13 +70,11 @@ Updating the DFA rules::
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule_Evaluator.json')
     DFARule_Evaluator = InterfaceObjects.DFARule(JSONDescriptor=jsonDescriptor)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getDFARules.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     #perform update
     error_S=API.updateASG_DFARules('ASG-1', "Selector",DFARule_Selector)
@@ -92,20 +88,17 @@ Add KB data
 Adding a single DFA rule::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # --JSON import of DFA rule
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFA_A.json')
     rule = InterfaceObjects.DFARule(JSONDescriptor=jsonDescriptor)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     # define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_addDFARule.pacopackage')
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore  # To update current KB
+
     # importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # perform update
     error_S = API.addASG_DFARule('ASG-1', "Selector", rule)
@@ -115,7 +108,7 @@ Adding a single DFA rule::
 Adding multiple DFA rule::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     ruleList = []
     # --JSON import of DFA rule
@@ -128,14 +121,11 @@ Adding multiple DFA rule::
     rule = InterfaceObjects.DFARule(JSONDescriptor=jsonDescriptor)
     ruleList.append(rule)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     # define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_addDFARules.pacopackage')
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore  # To update current KB
+
     # importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # perform update
     error_S = API.addASG_DFARules('ASG-1', "Selector",ruleList)
@@ -148,7 +138,7 @@ Instantiating from JSON file
 instantiating the DFA rule::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule.json')
@@ -162,7 +152,7 @@ Generating JSON object
 Generating the DFA JSON model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule.json')

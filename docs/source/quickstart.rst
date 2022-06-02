@@ -11,7 +11,7 @@ Imports::
 
 Initialization::
 
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
 API usage::
 

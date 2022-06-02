@@ -2,243 +2,339 @@
 <paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
   <includesAssemblySystem hasName="ASG-1">
     <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-1-config">
+      <hasRuleEvaluator hasName="Eval-1">
+        <hasDFARule xsi:type="paco:DFA_BoundValue" hasName="rule-parts-bound" hasProperty="NumberParts" hasMaxValue="100.0" hasMinValue="1.0" hasDescription="Hello World 2"/>
+        <hasDFARule xsi:type="paco:DFA_Translation" hasName="f" hasTranslationType="Global" hasDescription="f"/>
+        <hasDFARule xsi:type="paco:DFA_Gravity" hasName="gravity" hasDescription="gravity"/>
+      </hasRuleEvaluator>
       <hasSinglePartGenerator hasName="Gen-1"/>
       <hasRuleSelector hasName="Sel-1">
-        <hasDFARule xsi:type="paco:DFA_MaxValue" hasName="rule-height-max" hasValue="100.0" hasDescription="Hello World" hasProperty="Height" isAppliedToProduct="true">
-          <hasOption xsi:type="paco:BooleanOption" hasValue="true" hasName="TE"/>
+        <hasDFARule xsi:type="paco:DFA_MaxValue" hasName="rule-height-max" hasProperty="Height" isAppliedToProduct="true" hasValue="100.0" hasDescription="Hello World">
+          <hasOption xsi:type="paco:BooleanOption" hasName="TE" hasValue="true"/>
           <hasOption xsi:type="paco:TextualOption" hasValue="OptionEnumSelect" hasName="Option1"/>
         </hasDFARule>
-        <hasDFARule xsi:type="paco:DFA_MinValue" hasDescription="foot" hasProperty="Footprint" hasValue="150.0" hasName="rule-min-footprint"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule hasDescription="A new added DFA rule" isAppliedToProduct="true" hasName="DFA_A"/>
-        <hasDFARule hasDescription="A new added DFA rule for B" isAppliedToProduct="true" hasName="DFA_B"/>
-        <hasDFARule isAppliedToProduct="true" hasDescription="A new added DFA rule" hasName="DFA_A"/>
-        <hasDFARule hasName="DFA_B" hasDescription="A new added DFA rule for B" isAppliedToProduct="true"/>
+        <hasDFARule xsi:type="paco:DFA_MinValue" hasProperty="Footprint" hasName="rule-min-footprint" hasDescription="foot" hasValue="150.0"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule isAppliedToProduct="true" hasName="DFA_A" hasDescription="A new added DFA rule"/>
+        <hasDFARule isAppliedToProduct="true" hasName="DFA_B" hasDescription="A new added DFA rule for B"/>
+        <hasDFARule hasName="DFA_A" isAppliedToProduct="true" hasDescription="A new added DFA rule"/>
+        <hasDFARule hasName="DFA_B" isAppliedToProduct="true" hasDescription="A new added DFA rule for B"/>
       </hasRuleSelector>
       <hasTerminator hasName="Ter-1">
-        <hasStopCriterion hasValue="100.0" hasName="Stop-1" hasDescription="Maximum depth of search"/>
-        <hasStopCriterion hasValue="3600.0" hasName="Stop-2" hasStopCriterion="maxTime" hasDescription="Maximum time of search"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="100.0" hasName="Stop-1"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasStopCriterion="maxTime" hasValue="3600.0" hasName="Stop-2"/>
       </hasTerminator>
-      <hasRuleEvaluator hasName="Eval-1">
-        <hasDFARule xsi:type="paco:DFA_BoundValue" hasMinValue="1.0" hasName="rule-parts-bound" hasDescription="Hello World 2" hasMaxValue="100.0" hasProperty="NumberParts"/>
-        <hasDFARule xsi:type="paco:DFA_Translation" hasDescription="f" hasName="f" hasTranslationType="Global"/>
-        <hasDFARule xsi:type="paco:DFA_Gravity" hasDescription="gravity" hasName="gravity"/>
-      </hasRuleEvaluator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
 </paco:PlatformRoot>

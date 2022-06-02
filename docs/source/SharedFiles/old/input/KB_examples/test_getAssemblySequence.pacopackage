@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paco:PlatformRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM">
+  <includesAssemblySystem hasAssemblySequence="//@includesAssemblySequence.0" hasGroundPosition="//@includesPosition.0" hasGravityDirection="//@includesDirection.0" hasName="AS-1" hasGUID="AS-1"/>
+  <includesAssemblySequence hasAssemblyOption="//@includesSubAssembly.0" hasAssemblyMetric="//@includesAssemblyMetric.0"/>
+  <includesPosition hasX="10.0"/>
+  <includesDirection/>
+  <includesOperation hasOperator="//@includesOperator.0" hasOperationMetric="//@includesOperationMetric.0" hasName="SCREW-2-3" hasTool="//@includesTool.0" hasFastner="//@includesProductPart.0"/>
+  <includesOperation hasOperator="//@includesOperator.1" hasOperationMetric="//@includesOperationMetric.0" hasName="SCREW-4-5" hasTool="//@includesTool.0" hasFastner="//@includesProductPart.0 //@includesProductPart.1"/>
+  <includesAssemblyMetric hasName="OP-1" hasValue="0.89"/>
+  <includesOperator hasName="Joachim" hasReach="120.0" hasHeight="180.0" hasMaxLiftingWeight="55.0" hasCostPerHour="65.0"/>
+  <includesOperator hasName="Moharram" hasReach="60.0" hasHeight="175.0" hasMaxLiftingWeight="110.0" hasCostPerHour="65.0"/>
+  <includesSubAssembly hasName="SUB-1" hasOperation="//@includesOperation.0" hasRecursiveAssemblyOption="//@includesSubAssembly.1 //@includesSubAssembly.2"/>
+  <includesSubAssembly hasName="SUB-2"/>
+  <includesSubAssembly hasName="SUB-3" hasOperation="//@includesOperation.1" hasRecursiveAssemblyOption="//@includesSubAssembly.3 //@includesSubAssembly.4"/>
+  <includesSubAssembly hasName="SUB-4"/>
+  <includesSubAssembly hasName="SUB-5"/>
+  <includesTool hasName="Screwdriver-1" hasOrientation="//@includesOrientation.0" hasRequiredOperator="//@includesOperator.0" hasMass="150.0" hasGeometry="//@includesGeometry.0"/>
+  <includesOrientation hasData="0.0.0.0"/>
+  <includesGeometry hasDataInStepFile="c:/../../../"/>
+  <includesStiffness hasScalarMatrix6x6="2145f"/>
+  <includesModel hasModelType="FE" hasName="FE-Model"/>
+  <includesOperationMetric hasName="OP-2" hasValue="0.57"/>
+  <includesMaterial hasName="Composite" hasDensity="0.87" hasCost="150.0" hasDamping="55.8" hasStiffness="//@includesStiffness.0"/>
+  <includesProductPart hasPartName="Part-1" hasPartType="M" hasMaterial="//@includesMaterial.0" hasModel="//@includesModel.0"/>
+  <includesProductPart hasPartName="Part-2" hasPartType="M" hasMaterial="//@includesMaterial.0" hasModel="//@includesModel.0"/>
+</paco:PlatformRoot>

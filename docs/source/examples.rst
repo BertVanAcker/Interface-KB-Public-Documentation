@@ -7,7 +7,7 @@ Calling the function documentation
 ASG Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all ASG functions--
     print(API.getASG.__doc__)
@@ -17,7 +17,7 @@ ASG Function documentation::
 DFA Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all DFA functions--
     print(API.getASG_DFARules.__doc__)
@@ -29,7 +29,7 @@ DFA Function documentation::
 Performance Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all Performance functions--
     print(API.getPerformance.__doc__)
@@ -42,7 +42,7 @@ Investigating the interface objects documentation
 ASG Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the ASG interface object and contained functions--
     print(InterfaceObjects.ASG.__doc__)
@@ -50,7 +50,7 @@ ASG Interface objects documentation::
 DFA Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the DFA interface object and contained functions--
     print(InterfaceObjects.DFARule.__doc__)
@@ -60,7 +60,7 @@ DFA Interface objects documentation::
 Performance Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Performance interface object and contained functions--
     print(InterfaceObjects.PerformanceModel.__doc__)
@@ -70,7 +70,7 @@ Performance Interface objects documentation::
 Stopcondition Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Stopcondition interface object and contained functions--
     print(InterfaceObjects.StopCondition.__doc__)
@@ -78,7 +78,7 @@ Stopcondition Interface objects documentation::
 Parameter Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Parameter interface object and contained functions--
     print(InterfaceObjects.Parameter.__doc__)
@@ -86,7 +86,7 @@ Parameter Interface objects documentation::
 Objective Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Objective interface object and contained functions--
     print(InterfaceObjects.Objective.__doc__)
@@ -95,7 +95,7 @@ Objective Interface objects documentation::
 Constraint Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Constraint interface object and contained functions--
     print(InterfaceObjects.Constraint.__doc__)
@@ -103,7 +103,7 @@ Constraint Interface objects documentation::
 DecisionVariable Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the DecisionVariable interface object and contained functions--
     print(InterfaceObjects.DecisionVariable.__doc__)
@@ -115,15 +115,13 @@ Fetching data from the Knowledge-base
 Fetching the ASG model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getASG.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the ASG model
     InterfaceObject_received = API.getASG('ASG-1')
@@ -131,15 +129,13 @@ Fetching the ASG model::
 Fetching the DFA rules::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getDFARules.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the DFA rules
     DFARules_Selector = API.getASG_DFARules('ASG-1', "Selector")
@@ -148,15 +144,13 @@ Fetching the DFA rules::
 Fetching the Performance model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getPerformance.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_KB)
 
     # fetching the Performance model
     InterfaceObject_received = API.getPerformance('OPTIMIZATION-v1')
@@ -173,7 +167,7 @@ Updating the ASG model:
 Updating the DFA rules::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # --JSON import of DFA rules
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule_Selector.json')
@@ -181,13 +175,11 @@ Updating the DFA rules::
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule_Evaluator.json')
     DFARule_Evaluator = InterfaceObjects.DFARule(JSONDescriptor=jsonDescriptor)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getDFARules.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     #perform update
     error_S=API.updateASG_DFARules('ASG-1', "Selector",DFARule_Selector)
@@ -197,19 +189,18 @@ Updating the DFA rules::
 Updating the Performance model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #load the json file to perform update
     jsonPath = API.resolvePath('input/JSON-docs/updatePerformanceModel.json')
     interfaceObject = InterfaceObjects.PerformanceModel(jsonPath)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
+
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getPerformance.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     #perform update
     error = API.updatePerformance(interfaceObject)
@@ -241,7 +232,7 @@ instantiating the ASG model:
 instantiating the DFA rule::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/DFARule.json')
@@ -252,7 +243,7 @@ instantiating the DFA rule::
 instantiating the Performance model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/PerformanceModel.json')
@@ -272,7 +263,7 @@ Generating the ASG JSON model:
 Generating the Performance JSON model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/PerformanceModel.json')

@@ -1,387 +1,1982 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmi:version="2.0">
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>
   <includesAssemblySystem hasName="ASG-NEW">
-    <hasAssemblyAlgorithmConfiguration hasDescription="AssemblySequenceDraft1" hasName="ASG-NEW-config">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
       <hasRuleEvaluator hasName="EvalNew-1"/>
       <hasSinglePartGenerator hasName="GenNew-1"/>
       <hasRuleSelector hasName="SelNew-1"/>
       <hasTerminator hasName="Default">
-        <hasStopCriterion hasName="Stop-1-NEW" hasDescription="Maximum depth of search" hasValue="1000.0"/>
-        <hasStopCriterion hasName="Stop-2-NEW" hasDescription="Maximum time of search" hasValue="360.0"/>
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasDescription="Maximum depth of search" hasValue="1000.0" hasName="Stop-1-NEW"/>
+        <hasStopCriterion hasDescription="Maximum time of search" hasValue="360.0" hasName="Stop-2-NEW"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
+      </hasTerminator>
+    </hasAssemblyAlgorithmConfiguration>
+  </includesAssemblySystem>
+  <includesAssemblySystem hasName="ASG-NEW">
+    <hasAssemblyAlgorithmConfiguration hasName="ASG-NEW-config" hasDescription="AssemblySequenceDraft1">
+      <hasRuleEvaluator hasName="EvalNew-1"/>
+      <hasSinglePartGenerator hasName="GenNew-1"/>
+      <hasRuleSelector hasName="SelNew-1"/>
+      <hasTerminator hasName="Default">
+        <hasStopCriterion hasName="Stop-1-NEW" hasValue="1000.0" hasDescription="Maximum depth of search"/>
+        <hasStopCriterion hasName="Stop-2-NEW" hasValue="360.0" hasDescription="Maximum time of search"/>
       </hasTerminator>
     </hasAssemblyAlgorithmConfiguration>
   </includesAssemblySystem>

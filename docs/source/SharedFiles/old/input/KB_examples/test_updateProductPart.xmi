@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmi:version="2.0">
+  <includesOperation hasOperationMetric="//@includesOperationMetric.0" hasName="[(1) Housing, (10) Smallest Gear, (3) Input Shaft, (4) Neutral Shaft, (8) Small Gear] - [(11) Great Gear, (2) Gasket, (5) Output Shaft, (6) Lubrication Nipple, (7) Cover, (9) Big Gear]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.1" hasName="[(10) Smallest Gear, (4) Neutral Shaft] - [(1) Housing, (3) Input Shaft, (8) Small Gear]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.2" hasName="[(11) Great Gear, (5) Output Shaft, (9) Big Gear] - [(2) Gasket, (6) Lubrication Nipple, (7) Cover]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.3" hasName="[(5) Output Shaft] - [(11) Great Gear, (9) Big Gear]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.4" hasName="[(2) Gasket] - [(6) Lubrication Nipple, (7) Cover]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.5" hasName="[(7) Cover] - [(6) Lubrication Nipple]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.6" hasName="[(11) Great Gear] - [(9) Big Gear]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.7" hasName="[(4) Neutral Shaft] - [(10) Smallest Gear]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.8" hasName="[(1) Housing] - [(3) Input Shaft, (8) Small Gear]"/>
+  <includesOperation hasOperationMetric="//@includesOperationMetric.9" hasName="[(3) Input Shaft] - [(8) Small Gear]"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesOperationMetric hasName="Total Score" hasValue="-inf"/>
+  <includesLoad hasDirection="//@includesDirection.1" hasMagnitude="1000.0" hasLoadType="Static load" hasApplicationArea="//@includesApplicationArea.0"/>
+  <includesLoad hasDirection="//@includesDirection.2" hasMagnitude="1000.0" hasLoadType="Static load" hasApplicationArea="//@includesApplicationArea.1"/>
+  <includesLoad hasDirection="//@includesDirection.3" hasMagnitude="1000.0" hasLoadType="Static load" hasApplicationArea="//@includesApplicationArea.2"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesContactFeature hasFeatureStepFile="ContactFeatures.FCstd"/>
+  <includesAssemblySystem hasAssemblySequence="//@includesAssemblySequence.0" hasGroundPosition="//@includesPosition.0" hasGravityDirection="//@includesDirection.0"/>
+  <includesDirection hasY="-1.0"/>
+  <includesDirection/>
+  <includesDirection/>
+  <includesDirection/>
+  <includesStiffness hasScalarMatrix6x6=""/>
+  <includesStiffness hasScalarMatrix6x6=""/>
+  <includesStiffness hasScalarMatrix6x6=""/>
+  <includesParameter hasValue="[1mm]" hasKey="Input"/>
+  <includesParameter hasValue="[150mm]" hasKey="Input"/>
+  <includesParameter hasValue="[200mm]" hasKey="Input"/>
+  <includesParameter hasValue="[10Nm^-1]" hasKey="Output"/>
+  <includesParameter hasValue="[2000Nm^-1]" hasKey="Output"/>
+  <includesParameter hasValue="[3000Nm^-1]" hasKey="Output"/>
+  <includesMaterial hasName="Default Material" hasStiffness="//@includesStiffness.0" hasDamping="1.0" hasDensity="1.0" hasCost="1.0"/>
+  <includesMaterial hasName="Structural Steel(SS)" hasStiffness="//@includesStiffness.1" hasDensity="7850.0"/>
+  <includesMaterial hasStiffness="//@includesStiffness.2" hasName="Gray Cast Iron" hasDensity="7200.0"/>
+  <includesApplicationArea hasProductPart="//@includesProductPart.0" hasContactFeature="//@includesContactFeature.0 //@includesContactFeature.1"/>
+  <includesApplicationArea hasProductPart="//@includesProductPart.9" hasContactFeature="//@includesContactFeature.2 //@includesContactFeature.3"/>
+  <includesApplicationArea hasProductPart="//@includesProductPart.6" hasContactFeature="//@includesContactFeature.4 //@includesContactFeature.5"/>
+  <includesApplicationArea hasProductPart="//@includesProductPart.0" hasContactFeature="//@includesContactFeature.6"/>
+  <includesApplicationArea hasProductPart="//@includesProductPart.9" hasContactFeature="//@includesContactFeature.7"/>
+  <includesApplicationArea hasProductPart="//@includesProductPart.6" hasContactFeature="//@includesContactFeature.8"/>
+  <includesBoundaryCondition hasBlockedDOF="//@includesBlockedDOF.0" hasApplicationArea="//@includesApplicationArea.3"/>
+  <includesBoundaryCondition hasBlockedDOF="//@includesBlockedDOF.1" hasApplicationArea="//@includesApplicationArea.4"/>
+  <includesBoundaryCondition hasBlockedDOF="//@includesBlockedDOF.2" hasApplicationArea="//@includesApplicationArea.5"/>
+  <includesPosition/>
+  <includesBlockedDOF DOF4="true" DOF1="true"/>
+  <includesBlockedDOF DOF5="true" DOF2="true"/>
+  <includesBlockedDOF DOF3="true" DOF6="true"/>
+  <includesAnalysis hasAnalysisType="Default Analysis"/>
+  <includesAnalysis hasBoundaryCondition="//@includesBoundaryCondition.0" hasLoad="//@includesLoad.0" hasAnalysisParameter="//@includesParameter.0 //@includesParameter.3" hasAnalysisType="Static Structural"/>
+  <includesAnalysis hasBoundaryCondition="//@includesBoundaryCondition.1" hasLoad="//@includesLoad.1" hasAnalysisParameter="//@includesParameter.1 //@includesParameter.4" hasAnalysisType="Static Structural"/>
+  <includesAnalysis hasBoundaryCondition="//@includesBoundaryCondition.2" hasLoad="//@includesLoad.2" hasAnalysisParameter="//@includesParameter.2 //@includesParameter.5" hasAnalysisType="Static Structural"/>
+  <includesModel hasModelType="Default Model"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Custom" hasModelParameter="//@includesParameter.0 //@includesParameter.3"/>
+  <includesModel hasModelType="Custom" hasModelParameter="//@includesParameter.1 //@includesParameter.4"/>
+  <includesModel hasModelType="Custom" hasModelParameter="//@includesParameter.2 //@includesParameter.5"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Default"/>
+  <includesModel hasModelType="Default"/>
+  <includesProductPart hasModel="//@includesModel.3" hasMaterial="//@includesMaterial.1" hasReverseCompositionEdge="//@includesProductPart.2" hasPartName="(3) Input Shaft" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.3"/>
+  <includesProductPart hasModel="//@includesModel.9" hasMaterial="//@includesMaterial.1" hasReverseCompositionEdge="//@includesProductPart.9 //@includesProductPart.10 //@includesProductPart.8 //@includesProductPart.2" hasPartName="(9) Big Gear" hasPartType="Unknown"/>
+  <includesProductPart hasModel="//@includesModel.1" hasMaterial="//@includesMaterial.2" hasPartName="(1) Housing" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.0 //@includesProductPart.1 //@includesProductPart.3 //@includesProductPart.7 //@includesProductPart.9 //@includesProductPart.6"/>
+  <includesProductPart hasModel="//@includesModel.8" hasMaterial="//@includesMaterial.1" hasReverseCompositionEdge="//@includesProductPart.0 //@includesProductPart.2" hasPartName="(8) Small Gear" hasPartType="Unknown"/>
+  <includesProductPart hasModel="//@includesModel.6" hasMaterial="//@includesMaterial.1" hasPartName="(6) Lubrication Nipple" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.5"/>
+  <includesProductPart hasModel="//@includesModel.7" hasMaterial="//@includesMaterial.2" hasReverseCompositionEdge="//@includesProductPart.4 //@includesProductPart.7 //@includesProductPart.6" hasPartName="(7) Cover" hasPartType="Unknown"/>
+  <includesProductPart hasModel="//@includesModel.5" hasMaterial="//@includesMaterial.1" hasReverseCompositionEdge="//@includesProductPart.2 //@includesProductPart.8" hasPartName="(5) Output Shaft" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.5"/>
+  <includesProductPart hasModel="//@includesModel.2" hasMaterial="//@includesMaterial.1" hasReverseCompositionEdge="//@includesProductPart.2" hasPartName="(2) Gasket" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.5"/>
+  <includesProductPart hasModel="//@includesModel.11" hasMaterial="//@includesMaterial.1" hasPartName="(11) Great Gear" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.1 //@includesProductPart.6"/>
+  <includesProductPart hasModel="//@includesModel.4" hasMaterial="//@includesMaterial.1" hasReverseCompositionEdge="//@includesProductPart.2 //@includesProductPart.10" hasPartName="(4) Neutral Shaft" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.1"/>
+  <includesProductPart hasModel="//@includesModel.10" hasMaterial="//@includesMaterial.1" hasPartName="(10) Smallest Gear" hasPartType="Unknown" hasCompositionEdge="//@includesProductPart.1 //@includesProductPart.9"/>
+  <includesProduct hasAssemblySystem="//@includesAssemblySystem.0" hasProductName="OldGearBox" hasProductPart="//@includesProductPart.0 //@includesProductPart.1 //@includesProductPart.2 //@includesProductPart.3 //@includesProductPart.4 //@includesProductPart.5 //@includesProductPart.6 //@includesProductPart.7 //@includesProductPart.8 //@includesProductPart.9 //@includesProductPart.10" hasAnalysis="//@includesAnalysis.0 //@includesAnalysis.1 //@includesAnalysis.2 //@includesAnalysis.3" hasSTEPfile="C:/Users/alexander.decock/Local Documents/SVN/PACo/RuleTestsForUGM/data/FCStd/OldGearBox.FCStd"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesSubAssembly.1 //@includesSubAssembly.2" hasOperation="//@includesOperation.0" hasName="OldGearBox"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesSubAssembly.7 //@includesSubAssembly.8" hasOperation="//@includesOperation.1" hasName="[(1) Housing, (10) Smallest Gear, (3) Input Shaft, (4) Neutral Shaft, (8) Small Gear]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesSubAssembly.3 //@includesSubAssembly.4" hasOperation="//@includesOperation.2" hasName="[(11) Great Gear, (2) Gasket, (5) Output Shaft, (6) Lubrication Nipple, (7) Cover, (9) Big Gear]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.6 //@includesSubAssembly.6" hasOperation="//@includesOperation.3" hasName="[(11) Great Gear, (5) Output Shaft, (9) Big Gear]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.7 //@includesSubAssembly.5" hasOperation="//@includesOperation.4" hasName="[(2) Gasket, (6) Lubrication Nipple, (7) Cover]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.5 //@includesProductPart.4" hasOperation="//@includesOperation.5" hasName="[(6) Lubrication Nipple, (7) Cover]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.8 //@includesProductPart.1" hasOperation="//@includesOperation.6" hasName="[(11) Great Gear, (9) Big Gear]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.9 //@includesProductPart.10" hasOperation="//@includesOperation.7" hasName="[(10) Smallest Gear, (4) Neutral Shaft]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.2 //@includesSubAssembly.9" hasOperation="//@includesOperation.8" hasName="[(1) Housing, (3) Input Shaft, (8) Small Gear]"/>
+  <includesSubAssembly hasRecursiveAssemblyOption="//@includesProductPart.0 //@includesProductPart.3" hasOperation="//@includesOperation.9" hasName="[(3) Input Shaft, (8) Small Gear]"/>
+  <includesAssemblySequence hasAssemblyOption="//@includesSubAssembly.0"/>
+</paco:PlatformRoot>

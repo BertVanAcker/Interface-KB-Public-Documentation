@@ -1,0 +1,45 @@
+{
+    "DEBUG": true,
+    "Name": "Not in MM",
+    "Description": "Not in MM",
+    "Relations": [
+        {
+            "DEBUG": true,
+            "Name": "FootprintStiffness",
+            "Description": null,
+            "Source": {
+                "DEBUG": true,
+                "Name": "House footprint",
+                "Description": null,
+                "Unit": "mm2"
+            },
+            "Destination": {
+                "DEBUG": true,
+                "Name": "Stiffness",
+                "Description": null,
+                "Unit": "N/m"
+            },
+            "SensitivityDirection": "Positive",
+            "Weight": 0.0
+        },
+        {
+            "DEBUG": true,
+            "Name": "WeightAssembelebility",
+            "Description": null,
+            "Source": {
+                "DEBUG": true,
+                "Name": "Lid weight",
+                "Description": null,
+                "Unit": "kg"
+            },
+            "Destination": {
+                "DEBUG": true,
+                "Name": "Assembalibility score",
+                "Description": null,
+                "Unit": "-"
+            },
+            "SensitivityDirection": "Negative",
+            "Weight": 0.0
+        }
+    ]
+}

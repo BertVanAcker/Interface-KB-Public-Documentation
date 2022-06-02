@@ -44,6 +44,7 @@
                     "Key": "MASS",
                     "GUID": null,
                     "Value": 55.0,
+                    "Unit": "kg",
                     "StopCriteria": "maxDepth=0"
                 }
             ]

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <includesOptimizationProblem hasDescription="This is the new description" hasName="OPTIMIZATION-v1">
+    <hasOptimizationTargetDescription>
+      <hasDesignTarget xsi:type="paco:Objective" hasName="MIN-MASS" hasDescription="Minimize the total mass NEW">
+        <hasTerm xsi:type="paco:VariableTerm" hasDecisionVariable="//@includesOptimizationProblem.0/@hasOptimizationTargetDescription/@hasDecisionVariable.0"/>
+      </hasDesignTarget>
+      <hasDesignTarget xsi:type="paco:Constraint" hasName="CONSTRAINT1" hasDescription="Constraint1 NEW">
+        <hasExpression>
+          <hasExpressionOperator hasValue="&lt;"/>
+          <hasTerm xsi:type="paco:VariableTerm" hasDecisionVariable="//@includesOptimizationProblem.0/@hasOptimizationTargetDescription/@hasDecisionVariable.0"/>
+          <hasTerm xsi:type="paco:NumericalTerm" hasInfixPosition="RIGHT" hasValue="85.0"/>
+        </hasExpression>
+      </hasDesignTarget>
+      <hasDecisionVariable xsi:type="paco:Variable" hasInitialValue="10.0" hasDescription="Total mass variable" hasMinValue="10.0" hasResolution="0.1" hasName="Mass_var" hasParameter="//@includesParameter.0" hasOptimum="55.0" hasMaxValue="100.0"/>
+    </hasOptimizationTargetDescription>
+    <hasOptimizationAnalysisdDescription>
+      <hasOptimizationMethod hasName="HEURISTIC-M01" hasDescription="Heuristic method NEW"/>
+      <hasStopCriterion hasValue="100.0" hasName="STOP-1" hasStopCriterion="maxTime" hasDescription="Stop criterion 1 NEW"/>
+      <hasStopCriterion hasValue="22250.0" hasName="STOP-2" hasDescription="Stop criterion 2 NEW"/>
+    </hasOptimizationAnalysisdDescription>
+  </includesOptimizationProblem>
+  <includesParameter hasKey="MASS" hasDescription="Total mass parameter" hasValue="55.0" hasName="Mass"/>
+</paco:PlatformRoot>

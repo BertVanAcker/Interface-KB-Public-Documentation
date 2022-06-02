@@ -1,0 +1,54 @@
+{
+    "DEBUG": true,
+    "Name": "(NEW) Input Shaft",
+    "Description": "Description NEW",
+    "ProductType": "Unknown",
+    "Quantity": 115,
+    "parameterList": [
+        {
+            "DEBUG": true,
+            "Name": "Name NEW",
+            "Description": "",
+            "Key": "Input",
+            "GUID": "",
+            "Value": "[1mm]",
+            "StopCriteria": "Not defined"
+        },
+        {
+            "DEBUG": true,
+            "Name": "Name NEW",
+            "Description": "",
+            "Key": "Output",
+            "GUID": "",
+            "Value": "[10Nm^-1]",
+            "StopCriteria": "Not defined"
+        }
+    ],
+    "partList": [
+        {
+            "DEBUG": true,
+            "Name": "(8) Small Gear",
+            "Description": "Description NEW",
+            "ProductType": "Unknown",
+            "Quantity": 1,
+            "parameterList": [],
+            "partList": [],
+            "material": [
+                "Structural Steel",
+                0.0,
+                0.0,
+                7850.0,
+                0.0,
+                ""
+            ]
+        }
+    ],
+    "material": [
+        "Structural Steel(SS)",
+        0.0,
+        0.0,
+        7850.0,
+        0.0,
+        ""
+    ]
+}

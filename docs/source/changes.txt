@@ -8,11 +8,11 @@ Version 0.1.0 (PyPi)
 
 Version 0.2.0 (PyPi)
     * Basic SET functionality for all elements (KB version 6 - KB version 6.1 - KB version 7) -> API calls under discussion
-	
+
 Version 0.3.0 (PyPi)
     * Basic SET functionality for all elements (KB version 6 - KB version 6.1 - KB version 7) -> API calls under discussion
 	* Low-level hacks to enable serialization
-	
+
 Version 0.4.0 (PyPi)
     * Basic SET functionality for all elements (KB version 6 - KB version 6.1 - KB version 7) -> API calls under discussion
 	* Low-level hacks to enable serialization
@@ -20,9 +20,12 @@ Version 0.4.0 (PyPi)
 	* AssemblySequence functions added (not serializable)
 
 Version 0.5.0 (PyPi)
-    * Faulty build	
+    * Faulty build
 
 Version 0.6.0 (PyPi)
     * Basic SET functionality for all elements (KB version 6 - KB version 6.1 - KB version 7) -> API calls under discussion
 	* Serialization problem solved
 	* Updated legacy functions
+
+Version 1.0.0 (PyPi)
+    * API functions for KB version 8 (BASELINE)

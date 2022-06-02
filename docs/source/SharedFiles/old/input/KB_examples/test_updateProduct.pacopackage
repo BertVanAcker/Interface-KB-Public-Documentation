@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmi:version="2.0">
+  <includesProduct hasProductName="OldGearBox" hasSTEPfile="c:/NEWNEW/PATH/TO/THE/STEPFILE"/>
+  <includesOperator/>
+</paco:PlatformRoot>

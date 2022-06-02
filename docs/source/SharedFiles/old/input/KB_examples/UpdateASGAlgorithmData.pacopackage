@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<paco:PlatformRoot xmlns:xmi="http://www.omg.org/XMI" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <includesAssemblySystem hasGUID="ASG_001" hasName="ASG-01">
+    <hasAssemblyAlgorithmConfiguration>
+      <hasRuleSelector>
+        <hasDFARule xsi:type="paco:DFA_BBVolume" hasName="BoundBox_V"/>
+      </hasRuleSelector>
+      <hasBatchgenerator hasName="BGen-1" batchSize="10.0"/>
+    </hasAssemblyAlgorithmConfiguration>
+    <hasAssemblyAlgorithmData hasPriority="2.0" unexploredOptions="Option2" hasScore="6.0"/>
+  </includesAssemblySystem>
+  <includesProduct hasAssemblySystem="//@includesAssemblySystem.0"/>
+</paco:PlatformRoot>

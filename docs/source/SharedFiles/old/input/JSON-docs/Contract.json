@@ -1,0 +1,59 @@
+{
+    "DEBUG": true,
+    "Name": "C-1",
+    "Description": "Co-desgin contract C-1",
+    "Assumptions": [
+        [
+            {
+                "DEBUG": true,
+                "Name": "Lid weight",
+                "Description": null,
+                "Unit": "kg"
+            },
+            "<",
+            10.0
+        ],
+        [
+            {
+                "DEBUG": true,
+                "Name": "NumberOfParts",
+                "Description": null,
+                "Unit": "-"
+            },
+            "<",
+            10.0
+        ],
+        [
+            {
+                "DEBUG": true,
+                "Name": "NumberOfParts",
+                "Description": null,
+                "Unit": "-"
+            },
+            ">=",
+            2.0
+        ]
+    ],
+    "Guarantees": [
+        [
+            {
+                "DEBUG": true,
+                "Name": "Assembalibility score",
+                "Description": null,
+                "Unit": "-"
+            },
+            ">=",
+            0.85
+        ],
+        [
+            {
+                "DEBUG": true,
+                "Name": "Stiffness",
+                "Description": null,
+                "Unit": "N/m"
+            },
+            ">=",
+            15000.0
+        ]
+    ]
+}

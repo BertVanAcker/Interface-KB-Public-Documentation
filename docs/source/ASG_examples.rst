@@ -8,12 +8,16 @@ Function documentation
 ASG Function documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of all ASG functions--
     print(API.getASG.__doc__)
     print(API.updateASG_DFARules.__doc__)
     print(API.setASG.__doc__)
+    print(API.getASGAlgorithmData.__doc__)
+    print(API.updateASGAlgorithmData.__doc__)
+    print(API.setASGAlgorithmData.__doc__)
+
 
 Interface object documentation
 -------------------------------------------------
@@ -21,15 +25,25 @@ Interface object documentation
 ASG Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the ASG interface object and contained functions--
     print(InterfaceObjects.ASG.__doc__)
 
+ASG Data Interface objects documentation::
+
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
+
+    #--Call information of the ASG interface object and contained functions--
+    print(ASGAlgorithmData.ASG.__doc__)
+
+
+
 DFA Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the DFA interface object and contained functions--
     print(InterfaceObjects.DFARule.__doc__)
@@ -39,7 +53,7 @@ DFA Interface objects documentation::
 Parameter Interface objects documentation::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #--Call information of the Parameter interface object and contained functions--
     print(InterfaceObjects.Parameter.__doc__)
@@ -50,19 +64,30 @@ Fetch KB data
 Fetching the ASG model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getASG.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the ASG model
     InterfaceObject_received = API.getASG('ASG-1')
 
+Fetching the ASG Data::
+
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
+
+    #define the path to the KB instance model
+    path_KB = API.resolvePath('input/KB_examples/ASGAlgorithmData_TEST.pacopackage')
+
+    #importing the KB instance model
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
+
+    # fetching the ASG data
+    InterfaceObject_received = API.getASGAlgorithmData('ASG-01')
 
 Update KB data
 ----------------------------------------------
@@ -70,23 +95,37 @@ Update KB data
 Updating the ASG model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # load the json file to perform update
     jsonPath = API.resolvePath('input/JSON-docs/updateASGModel.json')
     interfaceObject = InterfaceObjects.ASG(jsonPath)
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_getASG.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     #updating the ASG model
     error = API.updateASG(AssemblySystemName='ASG-1',interfaceObject=interfaceObject)
 
+Updating the ASG Data::
+
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
+
+    #interface object to be updated
+    interfaceObject = InterfaceObjects.ASGAlgorithmData(Score=6.0,Feasible=False,UnexploredOptions="Option2",Priority=2.0)
+
+    #define the path to the KB instance model
+    path_KB = API.resolvePath('input/KB_examples/UpdateASGAlgorithmData.pacopackage')
+
+    #importing the KB instance model
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
+
+    # Update the ASG data
+    InterfaceObject_received = API.updateASGAlgorithmData(AssemblySystemName='ASG-01', interfaceObject=interfaceObject)
 
 Add KB data
 ----------------------------------------------
@@ -94,7 +133,7 @@ Add KB data
 Adding the ASG model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     #------------------------specify interface object START -----------------------------
     stopConditions = []
@@ -105,17 +144,31 @@ Adding the ASG model::
     ASG_interface = InterfaceObjects.ASG(None,Name='ASG-1-config', Description='AssemblySequenceDraft1',ProcessingType="Full=0",Generator=['GenNew-1','SinglePartGenerator'],Selector=['SelNew-1','RuleSelector'],Evaluator=['EvalNew-1','RuleEvaluator'],StopConditions=stopConditions)
     # ------------------------specify interface object END  -----------------------------
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_setASG.pacopackage')
-    API.KB_path = path_KB  # To update current KB
-    API.ECORE_path = path_ecore
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     #updating the ASG model
     error = API.setASG('ASG-1',ASG_interface)
+
+Adding the ASG Data::
+
+    from Interface_KB import KB_Interface,InterfaceObjects
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
+
+    #interface object to be updated
+    interfaceObject = InterfaceObjects.ASGAlgorithmData(Score=6.0,Feasible=False,UnexploredOptions="Option2",Priority=2.0)
+
+    #define the path to the KB instance model
+    path_KB = API.resolvePath('output/KB_Instance/test_setASGData_EmptyKB.pacopackage')
+
+    #importing the KB instance model
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
+
+    # Add the ASG data
+    InterfaceObject_received = API.setASGAlgorithmData('ASG-NEW',interfaceObject)
 
 
 Instantiating from JSON file
@@ -124,7 +177,7 @@ Instantiating from JSON file
 instantiating the ASG model::
 
     from Interface_KB import KB_Interface,InterfaceObjects
-    API = KB_Interface.KB_Interface(True)
+    API = KB_Interface.KB_Interface(KB_BASELINE='input/metamodel/Version8/PACoMM.ecore',DEBUG=True)
 
     # Specify the absolute path to the JSON file
     jsonDescriptor = API.resolvePath('input/JSON-docs/updateASGModel.json')
@@ -138,13 +191,11 @@ Generating JSON object
 
 Generating the ASG JSON model::
 
-    # specify the KB metamodel
-    path_ecore = API.resolvePath('input/metamodel/Version-6-1/PACoMM.ecore')
     #define the path to the KB instance model
     path_KB = API.resolvePath('input/KB_examples/test_updateASG.pacopackage')
-    API.KB_path = path_KB  # To update current KB
+
     #importing the KB instance model
-    API.MM, API.model, API.model_instance = API.importInstanceModel_NEW(path_ecore, path_KB)
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
 
     # fetching the ASG model
     InterfaceObject_received = API.getASG('ASG-1')
@@ -154,4 +205,18 @@ Generating the ASG JSON model::
     #printing the JSON object
     print(ASG_json)
 
+Generating the ASG Data JSON model::
 
+    #define the path to the KB instance model
+    path_KB = API.resolvePath('input/KB_examples/ASGAlgorithmData_TEST.pacopackage')
+
+    #importing the KB instance model
+    API.MM, API.model, API.model_instance = API.importKBInstanceModel(path_KB)
+
+    # fetching the ASG model
+    InterfaceObject_received = API.getASGAlgorithmData('ASG-01')
+
+    #generating the JSON object
+    ASG_json = InterfaceObject_received.object2json()
+    #printing the JSON object
+    print(ASG_json)

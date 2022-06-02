@@ -1,6 +1,6 @@
 {
     "DEBUG": true,
-    "Name": "(3) Input Shaft",
+    "Name": "(TEST) PART A",
     "Description": "Description NEW",
     "ProductType": "Unknown",
     "Quantity": 115,
@@ -12,6 +12,7 @@
             "Key": "Input",
             "GUID": "",
             "Value": "[1mm]",
+            "Unit": "mm",
             "StopCriteria": "Not defined"
         },
         {
@@ -21,6 +22,7 @@
             "Key": "Output",
             "GUID": "",
             "Value": "[10Nm^-1]",
+            "Unit": "Nm^-1",
             "StopCriteria": "Not defined"
         }
     ],

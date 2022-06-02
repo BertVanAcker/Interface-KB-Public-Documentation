@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="PACoPackage" nsURI="http://www.ua.be/cosys/paco/PACoMM" nsPrefix="paco">
+  <eClassifiers xsi:type="ecore:EClass" name="Product">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasProductName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasSTEPfile" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasConnection" upperBound="-1"
+        eType="#//Connection"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasProductPart" lowerBound="1"
+        upperBound="-1" eType="#//ProductPart"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasAnalysis" lowerBound="1"
+        upperBound="-1" eType="#//Analysis"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasAssemblySystem" lowerBound="1"
+        upperBound="-1" eType="#//AssemblySystem"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssemblySystem">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasAssemblySequence" upperBound="-1"
+        eType="#//AssemblySequence"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasGroundPosition" lowerBound="1"
+        eType="#//Position"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasGravityDirection" lowerBound="1"
+        eType="#//Direction"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssemblySequence">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasAssemblyOption" lowerBound="1"
+        eType="#//AssemblyOption"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasAssemblyMetric" upperBound="-1"
+        eType="#//AssemblyMetric"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Position">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasX" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasY" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasZ" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Direction">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasX" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasY" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasZ" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssemblyMetric">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasValue" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssemblyOption" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SubAssembly" eSuperTypes="#//AssemblyOption">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasOperation" upperBound="-1"
+        eType="#//Operation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasRecursiveAssemblyOption"
+        lowerBound="2" upperBound="2" eType="#//AssemblyOption"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Operation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasOperator" upperBound="-1"
+        eType="#//Operator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasOperationMetric" upperBound="-1"
+        eType="#//OperationMetric"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasTool" upperBound="-1"
+        eType="#//Tool"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasFastner" upperBound="-1"
+        eType="#//ProductPart"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OperationMetric">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasValue" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Operator">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="reach" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxLiftingWeight" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="costPerHour" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tool">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasOrientation" lowerBound="1"
+        eType="#//Orientation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasCost" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="requiredOperator" upperBound="-1"
+        eType="#//Operator"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasMass" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasGeometry" lowerBound="1"
+        eType="#//Geometry"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Orientation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasData" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Geometry">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasDataInStepFile" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Connection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasApplicationArea" lowerBound="2"
+        upperBound="2" eType="#//ApplicationArea"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasConnectionType" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasParameter" upperBound="-1"
+        eType="#//Parameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Parameter">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasKey" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasValue" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ApplicationArea">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasProductPart" lowerBound="1"
+        eType="#//ProductPart"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasContactFeature" lowerBound="1"
+        upperBound="-1" eType="#//ContactFeature"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContactFeature">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasFeatureStepFile" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProductPart" eSuperTypes="#//AssemblyOption">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasPartName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasPartType" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasMaterial" lowerBound="1"
+        eType="#//Material"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasModel" lowerBound="1"
+        eType="#//Model"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasContactFeature" upperBound="-1"
+        eType="#//ContactFeature"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasCompositionEdge" upperBound="-1"
+        eType="#//ProductPart" eOpposite="#//ProductPart/hasReverseCompositionEdge"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasReverseCompositionEdge"
+        upperBound="-1" eType="#//ProductPart" eOpposite="#//ProductPart/hasCompositionEdge"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasModelType" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasModelParameter" upperBound="-1"
+        eType="#//Parameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Material">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasName" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasDensity" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasCost" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasDamping" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasStiffness" lowerBound="1"
+        eType="#//Stiffness"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasTransparency" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Stiffness">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasScalarMatrix6x6" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Analysis">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasBoundaryCondition" upperBound="-1"
+        eType="#//BoundaryCondition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasLoad" upperBound="-1"
+        eType="#//Load"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasResponsePoint" upperBound="-1"
+        eType="#//ResponsePoint"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasAnalysisType" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasAnalysisParameter" upperBound="-1"
+        eType="#//Parameter"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasSimulatorParameter"
+        upperBound="-1" eType="#//Parameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ResponsePoint">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasPosition" lowerBound="1"
+        eType="#//Position"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasResponseType" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Load">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasApplicationArea" lowerBound="1"
+        eType="#//ApplicationArea"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasDirection" lowerBound="1"
+        eType="#//Direction"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasLoadType" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="hasMagnitude" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BoundaryCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasApplicationArea" lowerBound="1"
+        eType="#//ApplicationArea"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hasBlockedDOF" lowerBound="1"
+        eType="#//BlockedDOF"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BlockedDOF">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="DOF1" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="DOF2" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="DOF3" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="DOF4" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="DOF5" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="DOF6" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PlatformRoot">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesProduct" upperBound="-1"
+        eType="#//Product" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesAssemblySystem"
+        upperBound="-1" eType="#//AssemblySystem" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesAssemblySequence"
+        upperBound="-1" eType="#//AssemblySequence" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesPosition" upperBound="-1"
+        eType="#//Position" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesDirection" upperBound="-1"
+        eType="#//Direction" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesOperation" upperBound="-1"
+        eType="#//Operation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesAssemblyMetric"
+        upperBound="-1" eType="#//AssemblyMetric" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesOperator" upperBound="-1"
+        eType="#//Operator" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesSubAssembly" upperBound="-1"
+        eType="#//SubAssembly" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesTool" upperBound="-1"
+        eType="#//Tool" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesOrientation" upperBound="-1"
+        eType="#//Orientation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesGeometry" upperBound="-1"
+        eType="#//Geometry" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesPartConnection"
+        upperBound="-1" eType="#//Connection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesStiffness" upperBound="-1"
+        eType="#//Stiffness" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesBlockedDOF" upperBound="-1"
+        eType="#//BlockedDOF" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesModel" upperBound="-1"
+        eType="#//Model" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesParameter" upperBound="-1"
+        eType="#//Parameter" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesOperationMetric"
+        upperBound="-1" eType="#//OperationMetric" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesAnalysis" upperBound="-1"
+        eType="#//Analysis" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesMaterial" upperBound="-1"
+        eType="#//Material" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesLoad" upperBound="-1"
+        eType="#//Load" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesProductPart" upperBound="-1"
+        eType="#//ProductPart" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesApplicationArea"
+        upperBound="-1" eType="#//ApplicationArea" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesContactFeature"
+        upperBound="-1" eType="#//ContactFeature" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesResponsePoint"
+        upperBound="-1" eType="#//ResponsePoint" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="includesBoundaryCondition"
+        upperBound="-1" eType="#//BoundaryCondition" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

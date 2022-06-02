@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paco:PlatformRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:paco="http://www.ua.be/cosys/paco/PACoMM">
+  <includesProduct>
+    <hasAnalysisModel xsi:type="paco:PerformanceModel" hasDescription="This is a description of the analysis model" hasVersion="0.0.1" hasName="AnalysisModel_v1" hasModelFile="C:/location/pointing/to/modelfile" hasSubsetNumber="5.0">
+      <hasModeldescription hasFormalism="stl" hasVersion="0.0.1" hasCreatedBy="JEAN VAN"/>
+      <hasAnalysis hasAnalysisType="FE" hasGUID="FE_01">
+        <hasAnalysisResult xsi:type="paco:Metric" hasDescription="Result 001" hasName="Result_001" hasOptimum="552.0" hasUnit="N" hasValue="588.0"/>
+        <hasTooldescription hasDescription="Tool description A" hasName="ToolA" hasVersion="0.0.1"/>
+        <hasContact hasApplicationArea="//@includesProduct.0/@hasAnalysisModel.0/@hasAnalysis/@hasBoundaryCondition.0/@hasApplicationarea.0"/>
+        <hasBoundaryCondition hasValue="11.0" hasType="Unknown" hasName="BC_001">
+          <hasDOF hasDOF2="true" hasDOF4="true"/>
+          <hasDirection hasY="1.0" hasRx="1.0" hasRz="1.0"/>
+          <hasApplicationarea hasName="AA_1">
+            <hasContactfeature hasFeatureStepFile="C:/To/STEP/FILE"/>
+          </hasApplicationarea>
+        </hasBoundaryCondition>
+        <hasDecisionvariable xsi:type="paco:Variable" hasDescription="Variable1" hasName="Variable1" hasOptimum="58.0" hasUnit="N" hasMaxValue="100.0" hasMinValue="10.0" hasResolution="0.02" hasInitialValue="10.0"/>
+        <hasResponsepoint hasResponseType="X">
+          <position hasY="1.0"/>
+        </hasResponsepoint>
+      </hasAnalysis>
+      <hasMesh hasMeshType="Meshtype X"/>
+      <hasMesh hasMeshType="Meshtype Y"/>
+    </hasAnalysisModel>
+  </includesProduct>
+</paco:PlatformRoot>
