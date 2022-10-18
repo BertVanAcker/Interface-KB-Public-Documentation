@@ -62,6 +62,15 @@
                 81.0
             ],
             "ObjectiveOption": "Minimize"
+        },
+      {
+            "DEBUG": true,
+            "Name": "p",
+            "Description": "Maximize the value of p",
+            "ObjectiveTerm": [
+                "p"
+            ],
+            "ObjectiveOption": "Maximize"
         }
     ],
     "ConstraintList": [

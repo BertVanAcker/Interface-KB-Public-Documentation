@@ -53,19 +53,20 @@
     "ObjectiveList": [
         {
             "DEBUG": true,
-            "Name": "MIN-MASS",
+            "Name": "MIN-MASS-TEST",
             "Description": "Minimize the total mass NEW",
-            "ObjectiveOption": [
+            "ObjectiveTerm": [
                 "Mass_var",
                 "Total mass variable",
                 81.0
-            ]
+            ],
+            "ObjectiveOption": "Minimize"
         }
     ],
     "ConstraintList": [
         {
             "DEBUG": true,
-            "Name": "CONSTRAINT1",
+            "Name": "CONSTRAINT1-TEST",
             "Description": "Constraint1 NEW",
             "Expression": [
                 [
